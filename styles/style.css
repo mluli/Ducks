@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  
+    box-sizing: border-box;
+    background: rosybrown;
+    font-family: cursive;
+
+}
+
+.banner{
+    box-sizing: border-box;
+    background-color: red;
+    display: block;
+   
+}
+.logo{
+    background-color: black;
+}
+
+.img-banner{
+   
+    height: 20em;
+}
+.titulo{
+    background-color: yellow;
+    font-size: x-large; 
+    font-weight: bold;
+    
+}
+.menu{
+    background-color: red;
+    padding: 10px;
+
+}
+.container{
+  background-color: aquamarine;
+}
