@@ -5,6 +5,7 @@
     box-sizing: border-box;
     
     font-family: cursive;
+    overflow:auto
     
 }
 
@@ -23,13 +24,17 @@
 
   
 } 
-
+.tituloylogo{
+    align-items: stretch;
+}
 
 .logo{
     background-color: white;
-    position: absolute;
+    position: sticky;
+    top: -1em;
     left: 60em;
     width: 20%;
+    box-sizing: content-box;
 }
 
 
@@ -51,11 +56,14 @@
     left:220px;
     width:150px;
     padding:15px;
-    l
+    box-sizing: content-box;
 }
 
 .csecundaria{
-    align-items: center ;
+    align-items: stretch ;
+
+    position: relative;
+    box-sizing:content-box;
     
 
 }
@@ -68,9 +76,10 @@
 .img1{
     width: 200px;
 }
-.listafechas > ul,li{
+.listafechas {
     list-style:circle;
     align-content: space-between;
+    border-style: dashed;
 }
 footer{
     padding-top:  2vmax;
