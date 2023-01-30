@@ -13,28 +13,32 @@
  
     background-image: url("../assets/image/design1_image1.jpg");
     background-clip: border-box;
-    background-position: center top;
-    height: 500px;
-
-    border-style: dotted;
-
+    background-position: center;
+    height: 20em;
     opacity: 70%;
     align-items: baseline;
+    position: relative;
+    display: block;
    
 
   
 } 
 .tituloylogo{
     align-items: stretch;
+    position: relative;
+    box-sizing: border-box;
+    align-content: center;
+
 }
 
 .logo{
     background-color: white;
-    position: sticky;
+  position: absolute;
     top: -1em;
     left: 60em;
-    width: 20%;
+    width: 13.5%;
     box-sizing: content-box;
+
 }
 
 
@@ -43,32 +47,18 @@
     color:black;
     font-size: x-large; 
     font-weight: bold;
-    font-size: 3em;
- 
- 
-}
-.menu{
-    background-color: red;
-    align-items: center;
+    padding: 10px;
+ position:absolute;
+ /*  align-items: center;
     border-style: dotted;
 
     top:100px;
     left:220px;
     width:150px;
-    padding:15px;
+    padding:15px;*/
     box-sizing: content-box;
-}
-
-.csecundaria{
-    align-items: stretch ;
-
     position: relative;
-    box-sizing:content-box;
-    
-
 }
-
-
 .titulo2{
     background-color: black;
     color: white;
@@ -76,10 +66,46 @@
 .img1{
     width: 200px;
 }
+.csecundaria{
+    
+
+    position: relative;
+    box-sizing:content-box;
+ 
+    align-items: stretch;
+    align-content: stretch;
+    box-sizing: content-box;
+    inline-size: auto;
+    display: inline-flex;
+
+    
+
+}
+
+
+
+.menu{
+    width: 50%;
+    align-items: center;
+    box-sizing: content-box;
+  
+    padding: 20px;
+    margin: 20px;
+    display: inline-grid;
+}
 .listafechas {
     list-style:circle;
+    list-style-type: circle;
+    display:list-item;
     align-content: space-between;
-    border-style: dashed;
+
+    position: relative;
+ 
+    box-sizing: content-box;
+    width: 50%;
+   
+    padding: 5px;
+margin: 20px;
 }
 footer{
     padding-top:  2vmax;
