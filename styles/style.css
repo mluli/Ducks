@@ -7,6 +7,7 @@
     font-family: cursive;
     overflow:auto
     
+    
 }
 
 .banner{
@@ -23,11 +24,25 @@
 
   
 } 
+
+
+.container{
+  
+    flex-wrap: wrap;
+    
+    padding: 20px;
+    margin: 30px;
+    position: -webkit-sticky;
+    
+}
 .tituloylogo{
     align-items: stretch;
     position: relative;
     box-sizing: border-box;
     align-content: center;
+ 
+    object-fit: contain;
+  
 
 }
 
@@ -66,33 +81,46 @@
 .img1{
     width: 200px;
 }
+.flex-container{
+    display: flex;
+  flex-wrap: wrap;
+}
 .csecundaria{
     
 
     position: relative;
     box-sizing:content-box;
- 
+    object-fit: contain;
     align-items: stretch;
     align-content: stretch;
     box-sizing: content-box;
-    inline-size: auto;
-    display: inline-flex;
+   
+    display: flex;
+    height: 15rem;
+    width: 15rem;
+    justify-content: left;
+
+    width: 70%;
+
 
     
 
 }
+table {margin-left: auto;
+    margin-right: auto;}
 
 
 
 .menu{
-    width: 50%;
+    
     align-items: center;
-    box-sizing: content-box;
-  
+    height: 150px;
+    width: 200px;
     padding: 20px;
-    margin: 20px;
+    margin: 10px;
     display: inline-grid;
 }
+
 .listafechas {
     list-style:circle;
     list-style-type: circle;
@@ -108,6 +136,7 @@
 margin: 20px;
 }
 footer{
+  
     padding-top:  2vmax;
     margin: 2em;
     align-self: center;
